@@ -1,4 +1,3 @@
-import datetime
 import pytest
 from functions.two_date_parser import compose_datetime_from
 
@@ -13,4 +12,5 @@ from functions.two_date_parser import compose_datetime_from
 
 def test_compose_datetime_from(date_str, time_str, expected_result):
     assert str(compose_datetime_from(date_str, time_str)) == expected_result
+
 
