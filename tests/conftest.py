@@ -1,11 +1,12 @@
 import pytest
 
 
+
 @pytest.fixture
 def verb_male():
-    return 'male verb'
+    return 'накодил'
 
 
 @pytest.fixture
 def verb_female():
-    return 'female verb'
+    return 'накодила'

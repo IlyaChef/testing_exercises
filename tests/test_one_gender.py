@@ -4,8 +4,8 @@ from functions.one_gender import genderalize
 @pytest.mark.parametrize(
     'verb_male, verb_female, gender, expected_result',
     [
-        ('verb_male', 'verb_female', 'male', 'verb_male'),
-        ('verb_male', 'verb_female', 'female', 'verb_female'),
+        ('накодил', 'накодила', 'male', 'накодил'),
+        ('накодил', 'накодила', 'female', 'накодила'),
     ],
 )
 
