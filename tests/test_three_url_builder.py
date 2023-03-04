@@ -6,6 +6,7 @@ from functions.three_url_builder import build_url
     'host_name, relative_url, get_params, expected_result',
     [
         ('https://www.avito.ru', 'moskva_i_mo/nedvizhimost', {'localPriority': '0', 'q': 'дом'}, 'https://www.avito.ru/moskva_i_mo/nedvizhimost?localPriority=0&q=дом'),
+        ('https://www.avito.ru', 'moskva/igry_pristavki_i_programmy', None, 'https://www.avito.ru/moskva/igry_pristavki_i_programmy'),
     ],
 )
 
