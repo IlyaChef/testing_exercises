@@ -28,7 +28,7 @@ from functions.three_url_builder import build_url
             'praw-dev/praw/blob/master',
             {'path': 'README.rst'},
             'https://github.com/praw-dev/praw/blob/master?path=README.rst'
-        )
+        ),
     ],
 )
 def test_build_url(host_name, relative_url, get_params: Mapping[str, str], expected_result: str):
