@@ -8,8 +8,6 @@ from functions.one_gender import genderalize
         ('накодил', 'накодила', 'female', 'накодила'),
     ],
 )
-
-
 def test_genderalize(verb_male, verb_female, gender, expected_result):
     assert genderalize(verb_male, verb_female, gender) == expected_result
 
